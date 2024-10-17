@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- plugin css for this page -->
-    <link rel="stylesheet" href="/bootstrapAdd/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="/css/bootstrap.min.css'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <link rel="stylesheet" href="/css/style.css">
@@ -61,7 +66,7 @@
     <!-- End plugin js for this page -->
     <!-- Custom js for this page-->
     <script src="/js/dashboard.js"></script>
-    <script src="/bootstrapAdd/js/bootstrap.min.js'"></script>
+    <script src="/js/bootstrap.min.js'"></script>
 
 
     <!-- End custom js for this page-->
