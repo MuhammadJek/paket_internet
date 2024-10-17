@@ -14,8 +14,8 @@
                     <span class="mdi mdi-menu "></span>
                 </button>
                 <div class="navbar-brand-wrapper">
-                    <a class="navbar-brand brand-logo" href=""><img src="assets/images/logo.svg" alt="logo" /></a>
-                    <a class="navbar-brand brand-logo-mini" href=""><img src="assets/images/logo-mini.svg"
+                    <a class="navbar-brand brand-logo" href=""><img src="/images/logo.svg" alt="logo" /></a>
+                    <a class="navbar-brand brand-logo-mini" href=""><img src="/images/logo-mini.svg"
                             alt="logo" /></a>
                 </div>
                 <h4 class="mt-1 mb-0 font-weight-bold d-none d-md-block">Welcome back, Brandon Haynes</h4>
@@ -23,8 +23,7 @@
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img src="/assets/images/faces/face5.jpg" alt="profile" class="rounded-circle"
-                                width="40px" />
+                            <img src="/images/faces/face5.jpg" alt="profile" class="rounded-circle" width="40px" />
                             <span class="nav-profile-name ">Eleanor Richardson</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
