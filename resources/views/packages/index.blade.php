@@ -149,8 +149,6 @@
                         title: "Deleted!",
                         text: "Your file has been deleted.",
                         icon: "success"
-                    }).then(() => {
-                        location.reload(); // Refresh halaman setelah OK ditekan
                     });
                 }
             });
