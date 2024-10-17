@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- plugin css for this page -->
-    <link rel="stylesheet" href="/storage/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('storage/css/bootstrap.min.css') }}">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <link rel="stylesheet" href="/css/style.css">
@@ -61,7 +61,7 @@
     <!-- End plugin js for this page -->
     <!-- Custom js for this page-->
     <script src="/js/dashboard.js"></script>
-    <script src="/storage/js/bootstrap.min.js"></script>
+    <script src="{{ asset('storage/js/bootstrap.min.js') }}"></script>
 
 
     <!-- End custom js for this page-->
