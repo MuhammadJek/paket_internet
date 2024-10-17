@@ -79,7 +79,9 @@
 
                             </div>
                             <div class="card-body">
-                                @livewire('package.package-table')
+                                {{-- @livewire('package.package-table') --}}
+                                <livewire:package.package-table />
+
                             </div>
                         </div>
                     </div>
@@ -105,9 +107,13 @@
             <!-- partial -->
         </div>
     </div>
+    <livewire:package.package-create />
+    <livewire:package.package-edit />
+    <livewire:package.package-detail />
+    {{-- 
     @livewire('package.package-create')
     @livewire('package.package-edit')
-    @livewire('package.package-detail')
+    @livewire('package.package-detail') --}}
 @endsection
 
 {{-- script  --}}
