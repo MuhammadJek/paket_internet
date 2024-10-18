@@ -42,7 +42,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="harga" class="col-form-label">Harga :</label>
-                        <input type="number" wire:model="price"
+                        <input type="text" wire:model="price"
                             class="rupiah form-control form-control-sm @error('price')
                   is-invalid
               @enderror"

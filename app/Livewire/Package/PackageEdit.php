@@ -33,7 +33,7 @@ class PackageEdit extends Component
         $this->validate([
             'name' => 'required|max:255',
             'speed' => 'required|integer',
-            'price' => 'required|numeric'
+            'price' => 'required'
         ]);
         try {
             DB::beginTransaction();
