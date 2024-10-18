@@ -36,9 +36,6 @@
                                 <i class="mdi mdi-logout text-primary"></i>
                                 Logout
                             </a>
-                            {{-- <form action="{{ route('logout') }}" method="POST" id="logout-form" class="d-none">
-                                @csrf
-                            </form> --}}
                         </div>
                     </li>
 
@@ -79,8 +76,7 @@
 
                             </div>
                             <div class="card-body">
-                                {{-- @livewire('package.package-table') --}}
-                                <livewire:package.package-table />
+                                @livewire('package.package-table')
 
                             </div>
                         </div>
@@ -107,13 +103,9 @@
             <!-- partial -->
         </div>
     </div>
-    <livewire:package.package-create />
-    <livewire:package.package-edit />
-    <livewire:package.package-detail />
-    {{-- 
     @livewire('package.package-create')
     @livewire('package.package-edit')
-    @livewire('package.package-detail') --}}
+    @livewire('package.package-detail')
 @endsection
 
 {{-- script  --}}

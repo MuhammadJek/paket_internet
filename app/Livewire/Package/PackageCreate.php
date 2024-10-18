@@ -19,15 +19,17 @@ class PackageCreate extends Component
     public function store()
     {
 
+
         $this->validate([
             'name' => 'required|max:255',
             'speed' => 'required|integer',
-            'price' => 'required|numeric'
+            'price' => 'required'
         ]);
 
         try {
+
             DB::beginTransaction();
-            // if ($validation) {
+
             $create = Package::create([
                 'name' => $this->name,
                 'speed' => $this->speed,
@@ -41,6 +43,7 @@ class PackageCreate extends Component
                 return redirect()->to('/package');
             }
         } catch (\Throwable $th) {
+            DB::rollBack();
             session()->flash('danger', 'Error Server!');
             return redirect()->to('/package');
         }

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->integer('speed');
-            $table->decimal('price');
+            $table->decimal('price', 12, 2);
             $table->timestamps();
         });
     }

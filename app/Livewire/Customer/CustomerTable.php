@@ -34,7 +34,6 @@ class CustomerTable extends Component
     }
     public function customerDetail($customerID)
     {
-        // $this->name = $mitra['name'];
         $this->dispatch('customerDetail2', customerID: $customerID);
     }
     public function customerEdit($customer)

@@ -15,4 +15,9 @@ class Package extends Model
         'speed',
         'price',
     ];
+
+    public function pelanggan()
+    {
+        return $this->hasMany(Pelanggan::class);
+    }
 }

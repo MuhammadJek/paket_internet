@@ -46,7 +46,6 @@ class CustomerEdit extends Component
 
         try {
             DB::beginTransaction();
-            // if ($validation) {
             $customer = Pelanggan::find($id);
 
             if ($customer) {

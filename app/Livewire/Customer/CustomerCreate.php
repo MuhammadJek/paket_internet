@@ -35,7 +35,6 @@ class CustomerCreate extends Component
 
         try {
             DB::beginTransaction();
-            // if ($validation) {
             $create = Pelanggan::create([
                 'name' => $this->name,
                 'email' => $this->email,
@@ -51,6 +50,8 @@ class CustomerCreate extends Component
                 return redirect()->to('/customer');
             }
         } catch (\Throwable $th) {
+            DB::rollBack();
+
             session()->flash('danger', 'Error Server!');
             return redirect()->to('/customer');
         }
